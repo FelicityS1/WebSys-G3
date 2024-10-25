@@ -1,0 +1,48 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #333; /* Example color */
+    padding: 15px;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-link {
+    color: #fff; /* Change to your preferred link color */
+    text-decoration: none;
+}
+
+.orderButton .OrderNow-Button {
+    background-color: #FFDD55; /* Example button color */
+    color: #333; /* Button text color */
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.about-section {
+    padding: 20px;
+    background-color: #f9f9f9; /* Example background color */
+}
+
+.about-header {
+    font-size: 70px;
+    color: #FFDD55; /* Change to your preferred color */
+    text-align: center;
+}
+
+.detail h2 {
+    color: #333; /* Example heading color */
+}
+
+blockquote {
+    font-style: italic;
+    text-align: center;
+    margin: 20px 0;
+}
