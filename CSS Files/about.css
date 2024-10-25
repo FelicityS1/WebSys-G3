@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,500;1,14..32,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+:root {
+    /* Colors */
+    --black-color: #000000;
+    --dark-color: #252525;
+    --primary-color: #3b141c;
+    --secondary-color: #FFDD55;
+    --light-pink-color: #faf4f5;
+    --medium-gray-color: #ccc;
+    --bg-color: #D9D9D9;
+    --white: #fff;
+    --reminder: #BBB064;
+
+    /* Font size */
+    --font-size-s: 0.9rem;
+    --font-size-n: 1rem;
+    --font-size-m: 1.12rem;
+    --font-size-l: 1.5rem;
+    --font-size-xl: 2rem;
+    --font-size-xxl: 2.3rem;
+
+    /* Font weight */
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+
+    /* Border radius */
+    --border-radius-s: 8px;
+    --border-radius-m: 30px;
+    --border-radius-circle: 50%;
+
+    /* Site max width */
+    --site-max-width: 1300px;
+}
+
+/* Global Styles */
+body {
+    background-color: var(--bg-color);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--black-color);
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Section Styling */
+.section-content {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: var(--site-max-width);
+}
+
+/* Navbar Styling */
+header {
+    background: var(--bg-color);
+}
+
+header .navbar {
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo img {
+    width: 120px;
+}
+
+.navbar .nav-menu {
+    display: flex;
+    gap: 40px;
+}
+
+.navbar .nav-link {
+    font-size: 20px;
+    font-weight: var(--font-weight-medium);
+}
+
+.orderButton .OrderNow-Button {
+    padding: 10px 20px;
+    color: var(--secondary-color);
+    border-radius: var(--border-radius-m);
+    background: var(--black-color);
+    font-weight: var(--font-weight-medium);
+    font-size: 20px;
+}
+
+/* About Us Section Styling */
+.about-us2 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: var(--font-size-xl);
+    color: var(--black-color);
+}
+
+.mmdc-caf-is-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.mmdc-caf-is {
+    font-size: var(--font-size-m);
+    margin-bottom: 20px;
+}
+
+blockquote {
+    font-size: var(--font-size-n);
+    font-style: italic;
+    color: var(--dark-color);
+    border-left: 3px solid var(--black-color);
+    padding-left: 10px;
+    margin: 10px 0;
+}
+
