@@ -80,21 +80,20 @@ img {
 .navbar{
     background: #D9D9D9;
 }
-
 .navbar-brand{
     margin-right: 10px;
     margin-left: 10px;
 }
 
 .nav-link{
-    font-size: 19px;
+    font-size: 20px;
     font-family: 'Inter';
     color: #000000;
     margin-right: 10px;
     margin-left: 10px;
     border-radius: var(--border-radius-m);
     transition: 0.3s ease;
-   
+    
 }
 
 .nav-link:hover{
