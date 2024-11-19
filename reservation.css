@@ -172,14 +172,14 @@ body {
     border: #000000;
   }
 
-  .btn1{
+  .btn{
     border: 0;
     height: 40px;
-    width: 50%;
+    width: 40%;
     font-size: 15px;
     border-radius: 30px;
     margin-top: -420px;
-    margin-left: 840px;
+    margin-left: 810px;
     background-color: #610000;
     color: #fff;
   }
